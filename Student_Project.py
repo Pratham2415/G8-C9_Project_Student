@@ -12,8 +12,3 @@ for angle in range(#Write the range):
     turtle.color(#Pass lists elements one by one)
     turtle.seth(angle)
     turtle.circle(100)
-        
-turtle.penup()
-turtle.setpos(150,-270)
-turtle.pendown()
-#Hide the turtle
