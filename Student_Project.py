@@ -1,0 +1,19 @@
+import turtle
+
+#Keep the background color as black
+turtle.speed(10)
+n=1
+colors=['red','green','blue','yellow','purple']
+
+for angle in range(0,360,15):
+    n=n+1
+    if n==5:
+        n=-1
+    turtle.color(#Pass lists elements one by one)
+    turtle.seth(#Pass the variable angle)
+    turtle.circle(100)
+        
+turtle.penup()
+turtle.setpos(150,-270)
+turtle.pendown()
+#Hide the turtle
